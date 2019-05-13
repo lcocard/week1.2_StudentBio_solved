@@ -9,10 +9,13 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 */
 
 body {
+  /* no white space at the top of the page */
   padding: 0;
+  /* no white space at the top of the page */
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
+  /* line spacing 1.5 */
   line-height: 150%;
   color: #333;
   background: #efeee7;
@@ -23,6 +26,7 @@ header {
 }
 
 h1 {
+  /* 20px at the top and at the bottom of the header, 0px left and right */
   padding: 20px 0;
   margin: 0;
   margin-bottom: 20px;
@@ -40,6 +44,7 @@ a {
 }
 
 .container {
+  /* display on 1024px */
   width: 1024px;
   margin: 0 auto;
 }
